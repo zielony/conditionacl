@@ -1,0 +1,17 @@
+roles:
+  project-reader:
+    - read:project
+  project-writer:
+    - write:project
+    - update:project
+    - delete:project
+  project-admin:
+    - read:project
+    - write:project
+    - update:project
+    - delete:project
+  user-admin:
+    - read:user
+    - write:user
+    - update:user
+    - delete:user
