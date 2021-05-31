@@ -1,18 +1,21 @@
 {
     "name": "zielony/conditionacl",
+    "description": "Simple access-control list with conditions",
     "type": "library",
-    "require-dev": {
-        "phpunit/phpunit": "^9.5",
-        "phpspec/prophecy-phpunit": "^2.0"
-    },
     "authors": [
         {
             "name": "Tomek Zielonka",
             "email": "zielonka.tomasz@gmail.com"
         }
     ],
+    "license": "GPL-3.0-only",
     "require": {
+        "php": ">=7.4",
         "symfony/yaml": "^5.2"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "phpspec/prophecy-phpunit": "^2.0"
     },
     "autoload": {
         "psr-4": {
